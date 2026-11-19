@@ -1,0 +1,1990 @@
+{
+  "type": "FeatureCollection",
+  "name": "barrierefreie_touren_team_inklusion_oeav",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.509335,
+          46.821786
+        ]
+      },
+      "properties": {
+        "id": 808978768,
+        "title": "Handbike Tour Etappe 1: Reschensee - Schlanders (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2025-09-30 17:15:57.702",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.509335 46.821786)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.877095,
+          48.048495
+        ]
+      },
+      "properties": {
+        "id": 800349899,
+        "title": "Handbike Tour Lechradweg Etappe 5: Landsberg-Augsburg (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-07-01 11:13:23.107",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.877095 48.048495)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.154624,
+          46.669591
+        ]
+      },
+      "properties": {
+        "id": 808984907,
+        "title": "Handbike Tour Etappe 3: Meran - Kurtinig (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2025-10-07 19:26:34.896",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.154624 46.669591)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.85638,
+          46.72089
+        ]
+      },
+      "properties": {
+        "id": 810781552,
+        "title": "Rollstuhl Tour - vom Bahnhof Lavanttal bis zum Vogel-Aussichtsturm an der Lavant (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r1",
+        "device": "Rollstuhl ohne Zusatzantrieb",
+        "published_at": "2026-05-16 21:39:45.575",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(14.85638 46.72089)",
+        "equipment": "Der Autor hat diese Rollstuhl Tour mit einem Freewheel befahren, dies extra Hilfsmittel ist auf der Strecke aber nicht notwendig, da alles leicht befahrbar ist."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.218956,
+          47.418933
+        ]
+      },
+      "properties": {
+        "id": 809973914,
+        "title": "Rollstuhl in Bischofshofen am 24. Januar 2026 Sandra (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r2",
+        "device": "e-motion bzw. elektrische Antriebshilfe",
+        "published_at": "2026-01-24 15:50:33.254",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.218956 47.418933)",
+        "equipment": "e-Motionsrad + Kletterband für die Füße"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.467646,
+          47.471941
+        ]
+      },
+      "properties": {
+        "id": 800868190,
+        "title": "Rollstuhl Tour Rontalalm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-03 17:19:42.822",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.467646 47.471941)",
+        "equipment": "Die Tour ist nur mit einem Swiss Trac oder Mountainbike machbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.294733,
+          47.243988
+        ]
+      },
+      "properties": {
+        "id": 800345666,
+        "title": "Handbike Tour Lechradweg Etappe 2 (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-07-01 13:46:56.162",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.294733 47.243988)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.463654,
+          48.576129
+        ]
+      },
+      "properties": {
+        "id": 811328182,
+        "title": "Handbike Tour Donauradweg Etappe 1: Passau - Untermühl",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-06-09 14:14:50.441",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.463654 48.576129)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung) gemacht, mit Begleitung."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.583357,
+          48.225867
+        ]
+      },
+      "properties": {
+        "id": 811338991,
+        "title": "Handbike Tour Donauradweg Etappe 3: Au - Melk",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-06-24 13:26:15.423",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(14.583357 48.225867)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3779,
+          51.073703
+        ]
+      },
+      "properties": {
+        "id": 811813152,
+        "title": "Rollstuhltour JH Lauterbach - Prinzenstein (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2026-07-20 19:52:52.45",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.3779 51.073703)",
+        "equipment": "Die Wasserpumpe beim Schutzhaus Ihlefeld liefert laut Schild kein Trinkwasser und ist nicht barrierefrei erreichbar, daher Wasserflasche einpacken."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.397042,
+          51.052006
+        ]
+      },
+      "properties": {
+        "id": 812002463,
+        "title": "Rollstuhlwanderung am Erlebnispfad Silberborn (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2026-08-06 16:31:25.984",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.397042 51.052006)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.591413,
+          46.962711
+        ]
+      },
+      "properties": {
+        "id": 812301575,
+        "title": "Rollstuhl Tour zur Platzeralm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2026-08-30 20:20:05.497",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.591413 46.962711)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.981205,
+          48.42422
+        ]
+      },
+      "properties": {
+        "id": 811330603,
+        "title": "Handbike Tour Donauradweg 2. Etappe Untermühl - Au",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-06-10 09:26:19.342",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.981205 48.42422)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.598585,
+          48.40693
+        ]
+      },
+      "properties": {
+        "id": 811386333,
+        "title": "Handbike Tour Donauradweg Etappe 5: Krems - Wien",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-06-15 19:08:47.529",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(15.598585 48.40693)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.316085,
+          48.232724
+        ]
+      },
+      "properties": {
+        "id": 811346333,
+        "title": "Handbike Tour Donauradweg Etappe 4: Melk - Krems",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-06-10 13:56:13.159",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(15.316085 48.232724)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.175452,
+          45.13454
+        ]
+      },
+      "properties": {
+        "id": 810016286,
+        "title": "Fjordwanderung-Plomin Luka (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2026-01-31 10:40:20.999",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(14.175452 45.13454)",
+        "equipment": "Regen- und Sonnenschutz, Getränke und Proviant mitnehmen, unterwegs ist nichts. Leichte Wanderschuhe oder Sportschuhe, auch Sandalen würden gehen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.355628,
+          48.067315
+        ]
+      },
+      "properties": {
+        "id": 809988614,
+        "title": "Schlosspark Laxenburg (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2026-01-27 14:36:17.82",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(16.355628 48.067315)",
+        "equipment": "Regenschutz, Proviant (Getränk, Obst, usw.), bequeme Wanderschuhe."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.355864,
+          48.067236
+        ]
+      },
+      "properties": {
+        "id": 806225593,
+        "title": "Blindenwanderung Laxenburg Schlosspark",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2024-12-02 20:10:21.061",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(16.355864 48.067236)",
+        "equipment": "Je nach Jahreszeit, warme Winterbekleidung oder sommerliche leichte Wanderkleidung, Regenschutz, Getränk, Snacks. Es ist unterwegs keine Trinkstelle, außer in der Franzensburg (wenn geöffnet)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.718268,
+          47.491558
+        ]
+      },
+      "properties": {
+        "id": 800349442,
+        "title": "Handbike Tour Lechradweg Etappe 3: Reutte- Schongau (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-07-01 13:46:34.641",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.718268 47.491558)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.644032,
+          48.089325
+        ]
+      },
+      "properties": {
+        "id": 31059276,
+        "title": "Handbike Tour Münchner Osten - Falkenberg/Steinsee (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2018-07-29 13:08:32.613",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.644032 48.089325)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.645186,
+          48.087096
+        ]
+      },
+      "properties": {
+        "id": 49283148,
+        "title": "Handbike-Tour Otterfing - Linden - Harmating (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-15 18:50:22.586",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.645186 48.087096)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.643859,
+          48.089448
+        ]
+      },
+      "properties": {
+        "id": 49275522,
+        "title": "Handbike Tour Buchendorf - Hohenschäftlarn (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-14 19:58:45.263",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.643859 48.089448)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.643384,
+          48.089145
+        ]
+      },
+      "properties": {
+        "id": 47879955,
+        "title": "Handbike Tour Baiernrain (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-04-27 13:43:20.977",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.643384 48.089145)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.969448,
+          47.384832
+        ]
+      },
+      "properties": {
+        "id": 812290390,
+        "title": "Rollstuhl Tour durch das Gaistal von Erwald nach Leutasch (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2026-08-30 20:19:49.996",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.969448 47.384832)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.968702,
+          47.385302
+        ]
+      },
+      "properties": {
+        "id": 808734159,
+        "title": "Rollstuhl Tour von der Erwalder Almbahn zum Seebensee (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2025-08-26 18:12:52.084",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.968702 47.385302)",
+        "equipment": "Diese Wanderung ist für Menschen im Rollstuhl nur mit einem starken Zuggerät wie Swiss Trac mit Begleitperson oder Mountainbike machbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.698474,
+          47.570323
+        ]
+      },
+      "properties": {
+        "id": 800345375,
+        "title": "Handbike Tour Lechradweg  Anreise (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-06-01 18:52:27.222",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.698474 47.570323)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung (ohne Radstandsverlängerung) gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.212324,
+          47.440704
+        ]
+      },
+      "properties": {
+        "id": 803980368,
+        "title": "Rollstuhl Tour Ferchensee und Lautersee (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-10-30 11:34:51.12",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.212324 47.440704)",
+        "equipment": "Diese Tour wurde mit einem Swiss Trac gemacht. Mit Adaptivbike eher nicht geeignet, steile Abfahrten auf Schotter."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.591104,
+          46.962563
+        ]
+      },
+      "properties": {
+        "id": 806083063,
+        "title": "Rollstuhl Tour Pfundser Tschey (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2024-10-29 23:11:56.708",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.591104 46.962563)",
+        "equipment": "Die Wanderung eignet sich auch für andere Zuggeräte oder E-Rolli bis zur Kälberhütte. Nur mit einem Schieberolli kann es mühsam sein, da es schon bis ca. 8-10 % bergauf geht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.893313,
+          47.616639
+        ]
+      },
+      "properties": {
+        "id": 63835364,
+        "title": "Rollstuhl Tour vom Forsthaus Valepp zur Ackernalm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-03 18:40:34.339",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.893313 47.616639)",
+        "equipment": "Swiss Trac oder Mountainbike für Rollstuhlfahrer Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.693102,
+          47.5231
+        ]
+      },
+      "properties": {
+        "id": 32412779,
+        "title": "Rollstuhl Tour am Dachstein Krippenstein (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2020-06-16 14:03:40.301",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.693102 47.5231)",
+        "equipment": "Die Tour wurde mit einem elektrischen Zuggerät am Rollstuhl gemacht. Aber die Steigungen sind hierfür zu groß, das Vorderrad dreht durch. Alleine nicht machbar. Empfehlung starkes Zuggerät wie Swiss Trac."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.583003,
+          48.019894
+        ]
+      },
+      "properties": {
+        "id": 52232087,
+        "title": "Handbike-Tour Peretshofer Höhe (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-10-04 21:44:00.652",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.583003 48.019894)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.992832,
+          47.457527
+        ]
+      },
+      "properties": {
+        "id": 33375326,
+        "title": "Rollstuhl Tour um den Eibsee (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2018-10-14 21:16:33.523",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.992832 47.457527)",
+        "equipment": "Mit einem Vorspann Zuggerät wie Variodrive ist es stellenweise schwierig. Mit Swiss Trac ist die Runde problemlos zu fahren."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.093625,
+          47.580324
+        ]
+      },
+      "properties": {
+        "id": 60411485,
+        "title": "Rollstuhl Tour zum Pendling (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2021-07-11 12:47:17.704",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.093625 47.580324)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.615825,
+          47.632576
+        ]
+      },
+      "properties": {
+        "id": 805995341,
+        "title": "Rollstuhl Tour zur Alpe Beichelstein (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2024-10-14 11:49:11.963",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.615825 47.632576)",
+        "equipment": "Dies Tour habe ich mit einem Swiss Trac ohne Schwierigkeiten gemacht. Eventuell ist diese Wanderung auch mit einem anderen berggängigen Rollstuhlzuggerät oder sogar mit einem Elektrorollstuhl machbar. Vielleicht kann man aufgrund der Bilder einschätzen ob es machbar wäre. Eine Person in einem manuellen Rollstuhl hoch zu schieben wäre schon sehr mühsam."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.230871,
+          47.649121
+        ]
+      },
+      "properties": {
+        "id": 33415021,
+        "title": "Handbike Tour am Inn Niederndorf bis Brannenburg (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2019-06-17 11:22:27.801",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.230871 47.649121)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.644025,
+          48.089254
+        ]
+      },
+      "properties": {
+        "id": 31092886,
+        "title": "Handbike-Tour Deininger Weiher - Wolfratshausen (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2018-08-07 11:46:29.682",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.644025 48.089254)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung (meistens ohne Achsstandsverlängerung)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.501748,
+          49.34965
+        ]
+      },
+      "properties": {
+        "id": 805098670,
+        "title": "Rollstuhl Tour zur Burgruine Schwarzenburg am Schwarzwihrberg (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2024-06-18 14:12:16.262",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.501748 49.34965)",
+        "equipment": "Für Rollstuhlfahrer mit Swisstrack machbar oder mit einem Mountainbike wie z.B. Speedbike Comp CC von Praschberger."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.109092,
+          48.069138
+        ]
+      },
+      "properties": {
+        "id": 116054382,
+        "title": "Handbike-Tour Ammersee-Umrundung (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2018-08-07 19:45:09.083",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.109092 48.069138)",
+        "equipment": "Aufzeichnung mit einem Praschberger Adaptivbike mit E-Unterstützung (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.576072,
+          47.427367
+        ]
+      },
+      "properties": {
+        "id": 803905010,
+        "title": "Rollstuhl Tour zur Plumsjochhütte (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-10-14 15:15:15.844",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.576072 47.427367)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.184981,
+          47.66618
+        ]
+      },
+      "properties": {
+        "id": 50933829,
+        "title": "Handbike-Tour Murnauer Moos und Loisach (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-28 19:48:32.033",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.184981 47.66618)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.294042,
+          47.241576
+        ]
+      },
+      "properties": {
+        "id": 50622976,
+        "title": "Handbike Tour Lechradweg bis zur Mündung (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-06-26 17:51:17.482",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.294042 47.241576)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung mit Packtaschen vorne (ohne Radstandsverlängerung"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.970409,
+          48.075283
+        ]
+      },
+      "properties": {
+        "id": 50558354,
+        "title": "Handbike-Panoramatour Ebersberg - Aßling (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-15 18:04:20.433",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.970409 48.075283)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.085459,
+          46.700206
+        ]
+      },
+      "properties": {
+        "id": 802737004,
+        "title": "Rollstuhl Tour Pragser Wildsee (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-08-18 11:07:17.024",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.085459 46.700206)",
+        "equipment": "Diese Wanderung ist für Menschen im Rollstuhl mit einem Zuggerät wie Swiss Trac oder mit einem Zuggerät für Gelände machbar. Nur mit Rollstuhl unterwegs, ist es bis hinter die Kirche oder die linke Seite (Ostseite) bis kurz hinter dem Bootsverleih machbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.356675,
+          46.693099
+        ]
+      },
+      "properties": {
+        "id": 802736630,
+        "title": "Rollstuhl Tour Sexten - Talschluß Fischleintal (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-08-18 11:09:32.35",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.356675 46.693099)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson. Mit anderen Zuggeräten oder Adaptivbikes könnte der schottrige Untergrund an manchen Stellen schwierig werden."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.175823,
+          46.656447
+        ]
+      },
+      "properties": {
+        "id": 802737374,
+        "title": "Rollstuhl Tour Plätzwiese bis Dürrensteinhütte (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-08-18 11:08:33.098",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.175823 46.656447)",
+        "equipment": "Diese Tour ist mit einem Swiss Trac aufgezeichnet worden. Mit anderen elektrischen Zuggeräten auch machbar. Nur beim letzten Anstieg 17 % zur Dürrensteinhütte könnte eventuell Hilfe notwendig werden. Mit Swiss Trac kein Problem."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.774145,
+          46.628613
+        ]
+      },
+      "properties": {
+        "id": 808984433,
+        "title": "Handbike Tour Etappe 2: Schlanders - Meran (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2025-10-07 19:27:24.136",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.774145 46.628613)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.276396,
+          47.668775
+        ]
+      },
+      "properties": {
+        "id": 800875948,
+        "title": "Rollstuhl Tour Burgeralm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-03 17:04:49.041",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.276396 47.668775)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.316282,
+          47.606741
+        ]
+      },
+      "properties": {
+        "id": 807407967,
+        "title": "Rollstuhl Tour Bergstation Herzogstandbahn zum Berggasthaus Herzogstand (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2025-05-04 14:03:14.203",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.316282 47.606741)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.267858,
+          47.69287
+        ]
+      },
+      "properties": {
+        "id": 803905543,
+        "title": "Rollstuhl Tour Priener Hütte (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-10-14 16:52:52.506",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.267858 47.69287)",
+        "equipment": "Diese Tour wurde mit einem Swiss Trac (ein starkes Zuggerät für Rollstuhlfahrer) gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.895201,
+          48.375533
+        ]
+      },
+      "properties": {
+        "id": 800350555,
+        "title": "Handbike Tour Lechradweg Etappe 6: Augsburg-Donauwörth (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-06-02 14:46:43.035",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.895201 48.375533)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.878579,
+          47.660352
+        ]
+      },
+      "properties": {
+        "id": 806151609,
+        "title": "Rollstuhl Tour Valepper Almenrundweg (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2025-03-15 11:11:07.019",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.878579 47.660352)",
+        "equipment": "Diese Tour wurde mit einem Rollstuhl-Zuggerät (Swiss Trac) gemacht. Diese Tour ist sowohl im Rollstuhl mit Begleitperson, Elektrorollstuhl oder anderen Zuggeräten machbar. Wegen der Steigungen am Rückweg ist auf jeden Fall eine Begleitperson oder ein Zuggerät erforderlich."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.275068,
+          47.950322
+        ]
+      },
+      "properties": {
+        "id": 805360451,
+        "title": "Blindenwanderung: Winterbach-Hochbärneck-Puchenstuben",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2024-07-08 19:27:55.122",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(15.275068 47.950322)",
+        "equipment": "Bergschuhe und übliche Wanderausrüstung, Stöcke, Wetterschutz, Wasser, Snack. Manche sehbehinderte Wanderer bevorzugen eine Bandschlinge zur Führung."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.82991,
+          45.536336
+        ]
+      },
+      "properties": {
+        "id": 809129702,
+        "title": "Handbike Tour Etappe 6: Sant Ambrogio di Valpolicella - Verona (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2025-10-07 19:00:09.05",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.82991 45.536336)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.221897,
+          46.268631
+        ]
+      },
+      "properties": {
+        "id": 809119358,
+        "title": "Handbike Tour Etappe 4: Kurtinig - Rovereto (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2025-10-08 15:13:10.107",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.221897 46.268631)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.750332,
+          47.479464
+        ]
+      },
+      "properties": {
+        "id": 806056926,
+        "title": "Eggbergrunde",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2024-10-23 12:18:08.484",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(15.750332 47.479464)",
+        "equipment": "Übliche Wanderkleidung und feste Wanderschuhe."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.463898,
+          48.576114
+        ]
+      },
+      "properties": {
+        "id": 811482278,
+        "title": "Handbike Tour Donauradweg: Passau-Wien",
+        "activity": "Fernradweg",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-06-29 08:56:37.235",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.463898 48.576114)",
+        "equipment": "Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.567054,
+          47.402184
+        ]
+      },
+      "properties": {
+        "id": 812732651,
+        "title": "Rollstuhl Tour vom großen Ahornboden zur Binsalm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2026-10-13 12:24:24.471",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.567054 47.402184)",
+        "equipment": "Swiss Trac, starkes Rollstuhl-Zuggerät."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.460413,
+          47.087518
+        ]
+      },
+      "properties": {
+        "id": 807078992,
+        "title": "Rollstuhl Tour Wiesenweg Gschnitztal Steinach nach Trins (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2025-04-07 10:32:47.825",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.460413 47.087518)",
+        "equipment": "Gästekarte (wenn vorhanden) für Busbenützung. Teilweise getestet mit Rollstuhl mit Mountainbikereifen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.47833,
+          46.875509
+        ]
+      },
+      "properties": {
+        "id": 812179696,
+        "title": "Rollstuhl Tour Althofen (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2026-08-21 11:39:16.165",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(14.47833 46.875509)",
+        "equipment": "Rollstuhl. Zur Erleichterung, wenn vorhanden, wird ein Freewheel empfohlen."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.147989,
+          47.234135
+        ]
+      },
+      "properties": {
+        "id": 808362905,
+        "title": "Rollstuhl Tour von Gerlosplatte zur Franzikuskapelle (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2025-08-07 10:00:17.738",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.147989 47.234135)",
+        "equipment": "Rollstuhlfahrer mögen in Begleitung sein. Der Weg wurde mit einem Swiss-Trac getestet. Smartphone mit der App alpenvereinaktiv oder outdooractive."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.28143,
+          47.635641
+        ]
+      },
+      "properties": {
+        "id": 806572714,
+        "title": "Rollstuhl Runde um den Niedersonthofener See (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_unklar",
+        "device": "nicht genannt",
+        "published_at": "2025-12-01 21:16:52.966",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.28143 47.635641)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.037513,
+          45.890563
+        ]
+      },
+      "properties": {
+        "id": 809127957,
+        "title": "Handbike Tour Etappe 5: Rovereto - Sant Ambrogio di Valpolicella (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2025-10-05 16:07:10.896",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.037513 45.890563)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.111626,
+          48.740178
+        ]
+      },
+      "properties": {
+        "id": 812591964,
+        "title": "Handbike Tour Moldaustausee Nord (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-10-14 18:36:00.415",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(14.111626 48.740178)",
+        "equipment": "Adaptivbike mit E-Unterstützung (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.442969,
+          48.254491
+        ]
+      },
+      "properties": {
+        "id": 40301696,
+        "title": "Handbike-Tour Amperradweg Dachau - Kranzberger See (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2022-07-01 14:33:01.912",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.442969 48.254491)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.218721,
+          47.41889
+        ]
+      },
+      "properties": {
+        "id": 809973915,
+        "title": "Rollstuhltour in Bischofshofen (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2026-02-01 18:13:21.708",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.218721 47.41889)",
+        "equipment": "Tour geht auch mit SwissTrack Klettband"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.510405,
+          48.043661
+        ]
+      },
+      "properties": {
+        "id": 50480303,
+        "title": "Handbike Tour  Münsing, Starnberger See (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-14 15:56:22.571",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.510405 48.043661)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike (mit E-Unterstützung (ohne Radstandsverlängerung) gemacht"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.057817,
+          47.061439
+        ]
+      },
+      "properties": {
+        "id": 812747275,
+        "title": "Rollstuhl Tour zum Talschluss Sportgastein (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2026-10-14 15:50:16.25",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.057817 47.061439)",
+        "equipment": "Rollstuhl mit Freewheel (Vorderräder in der Luft) wird mindestens empfohlen, es gibt schon ein paar Steigungen. Ein elektrisches Zuggerät ist empfehlenswert. Mit dem E-Rollstuhl / SwissTrac: Für E-Rollstühle mit guter Bereifung oder Rollstühle mit Zuggerät (SwissTrac) ist der Weg durch das flache Tal absolut problemlos machbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.108422,
+          48.737887
+        ]
+      },
+      "properties": {
+        "id": 812592074,
+        "title": "Handbike Tour Moldaustausee Süd (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2026-10-13 18:48:33.214",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(14.108422 48.737887)",
+        "equipment": "Test mit einem Praschberger Adaptivbike mit E-Unterstützung."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.705836,
+          47.499656
+        ]
+      },
+      "properties": {
+        "id": 800213214,
+        "title": "Handbike Tour Achenkirch - Gernalm (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2024-06-23 15:35:40.749",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.705836 47.499656)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung (ohne Radstandsverlängerung) gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.392717,
+          46.630718
+        ]
+      },
+      "properties": {
+        "id": 40452559,
+        "title": "Handbike Tour Gailtal Radweg Teil 2 (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-15 12:56:31.077",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.392717 46.630718)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung (ohne Radstandsverlängerung)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.99865,
+          46.667311
+        ]
+      },
+      "properties": {
+        "id": 40523410,
+        "title": "Handbike Tour Gailtal Radweg Teil 1 (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-06-16 13:54:01.17",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(12.99865 46.667311)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.139033,
+          47.840379
+        ]
+      },
+      "properties": {
+        "id": 51478187,
+        "title": "Handbike-Tour Weilheim - Wessobrunn (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2020-07-17 14:07:35.75",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.139033 47.840379)",
+        "equipment": "Diese Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung gemacht."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.942901,
+          47.398834
+        ]
+      },
+      "properties": {
+        "id": 803883222,
+        "title": "Rollstuhl Tour Oberer Höhenweg Alpbach nach Inneralpbach (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2023-10-11 13:22:43.474",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.942901 47.398834)",
+        "equipment": "Swiss Trac oder andere Zuggeräte. Steilste Stelle nach dem Wurmhof unterhalb dem Skilift, ist asphaltiert."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.965659,
+          47.763024
+        ]
+      },
+      "properties": {
+        "id": 63848714,
+        "title": "Rollstuhl Tour Tregleralm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-03 18:44:38.898",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.965659 47.763024)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.886795,
+          47.672622
+        ]
+      },
+      "properties": {
+        "id": 63835094,
+        "title": "Rollstuhl Tour zur Oberen Firstalm (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-03 17:46:49.8",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.886795 47.672622)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.567312,
+          47.402303
+        ]
+      },
+      "properties": {
+        "id": 33312539,
+        "title": "Rollstuhl Tour Großer Ahornboden, Eng (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r1",
+        "device": "Rollstuhl ohne Zusatzantrieb",
+        "published_at": "2018-10-09 22:52:42.961",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.567312 47.402303)",
+        "equipment": "Möglich mit Rollstuhl, E-Rollstuhl, Rollstuhl mit Zuggerät, Handbike"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.502363,
+          47.462798
+        ]
+      },
+      "properties": {
+        "id": 801478405,
+        "title": "Rollstuhl Tour zum kleinen Ahornboden (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-10-17 22:04:55.738",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.502363 47.462798)",
+        "equipment": "Für Menschen im Rollstuhl ist die Strecke mit Swiss Trac oder Mountainbike geeignet. Beim Swiss Trac auf die Reichweite des Akkus achten."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.489839,
+          47.558779
+        ]
+      },
+      "properties": {
+        "id": 800918976,
+        "title": "Rollstuhl Tour am Sylvensteinspeicher (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-09 20:10:17.779",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.489839 47.558779)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson. Diese Tour ist auch mit anderen Zuggeräten machbar. Mit Rollstuhl ohne Antrieb ist der Untergrund teilweise nicht so gut berollbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.656437,
+          46.836946
+        ]
+      },
+      "properties": {
+        "id": 806679401,
+        "title": "Karlin Loipe in Melag (Langlaufschlitten barrierefrei)",
+        "activity": "Langlauf",
+        "category": "sonstiges",
+        "device": "Langlaufschlitten",
+        "published_at": "2025-02-27 16:11:03.596",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.656437 46.836946)",
+        "equipment": "Langlaufschlitten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.888276,
+          47.66207
+        ]
+      },
+      "properties": {
+        "id": 63951320,
+        "title": "Rollstuhl Tour Spitzingsee - Rotwandhaus (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-08-03 18:46:57.999",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.888276 47.66207)",
+        "equipment": "Diese Wanderung ist für Menschen im Rollstuhl nur mit einem starken Zuggerät wie Swiss Trac mit Begleitperson oder Mountainbike machbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.888633,
+          47.661491
+        ]
+      },
+      "properties": {
+        "id": 806027015,
+        "title": "Rollstuhl Tour zur Schönfeldhütte ab Spitzingsee (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2024-10-18 12:00:59.698",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.888633 47.661491)",
+        "equipment": "Getestet mit einem Swiss Trac (Rollstuhl Mountainbike Bereifung) und einer Begleitperson."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.895563,
+          47.812521
+        ]
+      },
+      "properties": {
+        "id": 800349758,
+        "title": "Handbike Tour Lechradweg Etappe 4: Schongau-Landsberg  (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-06-02 11:58:06.808",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.895563 47.812521)",
+        "equipment": "Getestet mit einem Praschberger Adaptivbike mit E-Unterstützung und Packtaschen vorne (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.787824,
+          47.521067
+        ]
+      },
+      "properties": {
+        "id": 801483854,
+        "title": "Rollstuhl Tour Steinberg am Rofan (barrierefrei)",
+        "activity": "Wanderung",
+        "category": "rollstuhl_r3",
+        "device": "Swiss-Trac bzw. starkes Zuggerät",
+        "published_at": "2022-10-19 14:56:07.054",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.787824 47.521067)",
+        "equipment": "Zuggerät mit starkem Antrieb, wie Swiss Trac oder Mountainbike. Entlang dem Fluß bis kurz vor dem Gaismoosstollen würde auch ein anderes Rollstuhlzugerät funktionieren. Rollstuhlfahrer dürfen unten direkt an der Steinberger Ache parken."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.509455,
+          46.821841
+        ]
+      },
+      "properties": {
+        "id": 809130437,
+        "title": "Handbike Etappentour: Reschen -Verona (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Handbike",
+        "published_at": "2026-04-07 08:35:59.195",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(10.509455 46.821841)",
+        "equipment": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.546822,
+          48.094801
+        ]
+      },
+      "properties": {
+        "id": 31295202,
+        "title": "Handbike-Tour am Isarradweg durch München (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Adaptivhandbike",
+        "published_at": "2018-08-07 11:46:47.986",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(11.546822 48.094801)",
+        "equipment": "Praschberger Adaptivhandbike mit E-Unterstützung (ohne Radstandsverlängerung)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.692793,
+          47.551483
+        ]
+      },
+      "properties": {
+        "id": 32413814,
+        "title": "Handbike Tour Obertraunrunde zur Koppenwinkllacke und Hallstätter See (barrierefrei)",
+        "activity": "Radtour",
+        "category": "handbike",
+        "device": "Praschberger Adaptivbike",
+        "published_at": "2022-07-01 14:36:29.895",
+        "source_id": "806030126",
+        "source": "Team Inklusion ÖAV",
+        "url": "",
+        "startpoint_raw": "POINT(13.692793 47.551483)",
+        "equipment": "Die Tour wurde mit einem Praschberger Adaptivbike mit E-Unterstützung (ohne Achsstandsverlängerung) gemacht."
+      }
+    }
+  ]
+}
