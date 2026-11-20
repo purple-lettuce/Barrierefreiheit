@@ -1,0 +1,15 @@
+﻿# Rohdaten (nicht im Repository)
+routes/
+*.xlsx
+!output/*.xlsx
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# Umgebung / Cache
+.venv/
+.vscode/
+__pycache__/
+

@@ -1,0 +1,278 @@
+{
+  "shapefile": {
+    "datei": "routes\\av_routes_lnString_261020.shp",
+    "ebenen": [
+      [
+        "av_routes_lnString_261020",
+        "LineString"
+      ]
+    ],
+    "geometrietyp": "LineString",
+    "anzahl_features": 228532,
+    "attribute": [
+      "ID",
+      "AKTIVITäT"
+    ],
+    "id_attribut": "ID",
+    "prj_crs": "WGS 84",
+    "prj_epsg": 4326,
+    "bounds_roh": [
+      -173.686128,
+      -54.905994,
+      176.37006,
+      75.845169
+    ]
+  },
+  "abgleich": {
+    "geometrien_shapefile": 228532,
+    "geometrien_ohne_id": 0,
+    "geometrien_team_inklusion": 444,
+    "eindeutige_tour_ids_mit_linie": 444,
+    "mehrfach_zugeordnete_ids": [],
+    "doppelte_ids_im_shapefile_gesamt": 0,
+    "geometrien_ohne_passende_tour_im_gesamtexport": 0,
+    "geometrien_anderer_quellen": 228088
+  },
+  "crs": {
+    "quelle": "WGS 84",
+    "epsg": 4326,
+    "transformiert": false,
+    "ziel": "EPSG:4326"
+  },
+  "geometrie_pruefung": {
+    "leere_geometrien": 0,
+    "ungueltig_vor_reparatur": 0,
+    "repariert": [],
+    "nicht_repariert": [],
+    "geometrien_mit_z_wert_auf_2d_reduziert": 0
+  },
+  "segmente": {
+    "touren_aus_mehreren_shapefile_features": 0,
+    "touren_als_multilinestring": 0,
+    "vorgehen": "mehrere Segmente bleiben als MultiLineString erhalten (kein Linemerge, keine Lueckenschliessung)"
+  },
+  "vereinfachung": {
+    "verfahren": "Douglas-Peucker, preserve_topology=True, Toleranz 1.0 m in EPSG:3035, danach Rundung auf 6 Nachkommastellen",
+    "stuetzpunkte_vorher": 178108,
+    "stuetzpunkte_nachher": 176243,
+    "reduktion_prozent": 1.0,
+    "max_abweichung_hausdorff_m": 1.0,
+    "median_abweichung_hausdorff_m": 0.0,
+    "nach_rundung_ungueltig_original_verwendet": 0
+  },
+  "dateigroessen": {
+    "shapefile_gesamt_mb": 1309.1,
+    "team_unvereinfacht_geojson_mb": 4.39,
+    "gpkg_mb": 3.35,
+    "geojson_mb": 4.95
+  },
+  "plausibilitaet": {
+    "bounding_box_gesamt": [
+      -5.09846,
+      43.0719,
+      16.69815,
+      57.26557
+    ],
+    "erwartete_bbox_alpenraum": [
+      5.0,
+      43.5,
+      17.5,
+      49.5
+    ],
+    "touren_ausserhalb_bbox": [
+      {
+        "id": "803913571",
+        "title": "Karl-Heine-Kanal"
+      },
+      {
+        "id": "801832763",
+        "title": "Etappe 1 FünfFlüsseRadweg Eckenthal - Amberg 19.06.23"
+      },
+      {
+        "id": "58301793",
+        "title": "Elberadweg Dresden - Magdeburg"
+      },
+      {
+        "id": "40952482",
+        "title": "Demmin Loitz"
+      },
+      {
+        "id": "41020657",
+        "title": "Waren Müritz"
+      },
+      {
+        "id": "51703342",
+        "title": "Handbike-Tour Nabburg"
+      },
+      {
+        "id": "812002463",
+        "title": "Rollstuhlwanderung am Erlebnispfad Silberborn (barrierefrei)"
+      },
+      {
+        "id": "811813152",
+        "title": "Rollstuhltour JH Lauterbach - Prinzenstein (barrierefrei)"
+      },
+      {
+        "id": "805104063",
+        "title": "Handbike-Tour Saar-Mosel (barrierefrei)"
+      },
+      {
+        "id": "806015572",
+        "title": "Swisstrack-Wanderung am Loch Affric"
+      },
+      {
+        "id": "806014835",
+        "title": "Swisstrack-Wanderung um den Loch an Eilein"
+      },
+      {
+        "id": "51703318",
+        "title": "Handbike-Tour Schönsee Oberpfälzer Wald"
+      },
+      {
+        "id": "803910244",
+        "title": "Handbiketour Potsdam - Werder"
+      },
+      {
+        "id": "41231514",
+        "title": "Tour 2 Bayreuth"
+      },
+      {
+        "id": "41228699",
+        "title": "Bayreuth"
+      },
+      {
+        "id": "802051391",
+        "title": "Etappe 6: FünfFlüsseRadweg Nürnberg-Eckenthal 24.06.23"
+      },
+      {
+        "id": "803719386",
+        "title": "Potsdam - Werder - Schlänitzsee"
+      },
+      {
+        "id": "803910448",
+        "title": "Handbike Tour Schlösserrunde Potsdam"
+      },
+      {
+        "id": "803738646",
+        "title": "Tourenplanung am 2023-09-17"
+      },
+      {
+        "id": "41112559",
+        "title": "Müritz Nationalpark"
+      },
+      {
+        "id": "808795145",
+        "title": "Lange Radtour von Sankt Georgen im Lavanttal auf die Sella di Camporosso (Saifnitzer Sattel) nach Rimini über Treviso, Padova (Padua) und Rovigo"
+      },
+      {
+        "id": "808795144",
+        "title": "Tourenplanung am 07.07.2025 08:58:20"
+      },
+      {
+        "id": "806014654",
+        "title": "Swisstrack-Wanderung um den Glencoe Lochan"
+      },
+      {
+        "id": "805006538",
+        "title": "Handbike-Tour Etappe 2: Merzig - Trier (barrierefrei)"
+      },
+      {
+        "id": "805007612",
+        "title": "Handbike-Tour Etappe 4: Bernkastel-Cochem (barrierefrei)"
+      },
+      {
+        "id": "805007407",
+        "title": "Handbike-Tour Etappe 3: Trier - Bernkastel (barrierefrei)"
+      },
+      {
+        "id": "805007725",
+        "title": "Handbike-Tour Etappe 5: Cochem - Koblenz (barrierefrei)"
+      }
+    ],
+    "vermutlich_vertauschte_koordinaten": [],
+    "erwartete_bbox_europa": [
+      -11.0,
+      35.0,
+      25.0,
+      60.0
+    ],
+    "touren_ausserhalb_europa_bbox": []
+  },
+  "touren": {
+    "anzahl_excel_team_inklusion": 444,
+    "mit_linie": 444,
+    "ohne_linie": 0,
+    "ohne_linie_liste": [],
+    "aufschluesselung_mit_linie": {
+      "gesamt": 444,
+      "nach_veroeffentlicht": {
+        "Ja": 256,
+        "Nein": 188
+      },
+      "nach_hat_report": {
+        "Nein": 354,
+        "Ja": 90
+      },
+      "nach_kategorie": {
+        "nicht_klassifiziert": 354,
+        "handbike": 42,
+        "rollstuhl_r3": 33,
+        "rollstuhl_unklar": 12,
+        "rollstuhl_r1": 2,
+        "sonstiges": 1
+      },
+      "veroeffentlicht_x_report_x_kategorie": {
+        "Ja|Ja|handbike": 40,
+        "Ja|Ja|rollstuhl_r1": 2,
+        "Ja|Ja|rollstuhl_r3": 32,
+        "Ja|Ja|rollstuhl_unklar": 10,
+        "Ja|Ja|sonstiges": 1,
+        "Ja|Nein|nicht_klassifiziert": 171,
+        "Nein|Ja|handbike": 2,
+        "Nein|Ja|rollstuhl_r3": 1,
+        "Nein|Ja|rollstuhl_unklar": 2,
+        "Nein|Nein|nicht_klassifiziert": 183
+      }
+    },
+    "aufschluesselung_excel_alle": {
+      "gesamt": 444,
+      "nach_veroeffentlicht": {
+        "Ja": 256,
+        "Nein": 188
+      },
+      "nach_hat_report": {
+        "Nein": 354,
+        "Ja": 90
+      },
+      "nach_kategorie": {
+        "nicht_klassifiziert": 354,
+        "handbike": 42,
+        "rollstuhl_r3": 33,
+        "rollstuhl_unklar": 12,
+        "rollstuhl_r1": 2,
+        "sonstiges": 1
+      },
+      "veroeffentlicht_x_report_x_kategorie": {
+        "Ja|Ja|handbike": 40,
+        "Ja|Ja|rollstuhl_r1": 2,
+        "Ja|Ja|rollstuhl_r3": 32,
+        "Ja|Ja|rollstuhl_unklar": 10,
+        "Ja|Ja|sonstiges": 1,
+        "Ja|Nein|nicht_klassifiziert": 171,
+        "Nein|Ja|handbike": 2,
+        "Nein|Ja|rollstuhl_r3": 1,
+        "Nein|Ja|rollstuhl_unklar": 2,
+        "Nein|Nein|nicht_klassifiziert": 183
+      }
+    }
+  },
+  "id_normalisierung": {
+    "join_feld_shapefile": "ID",
+    "join_feld_excel": "id (normalisiert aus 'ID')",
+    "regeln": "siehe scripts/tour_ids.py",
+    "angewandte_regeln_shapefile": {
+      "float_zu_int": 228532
+    },
+    "ids_in_excel_normalisiert_mit_unterschied": 0
+  }
+}
