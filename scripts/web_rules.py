@@ -11,7 +11,7 @@ KATEGORIEN = {
     "handbike": {"label": "Handbike", "farbe": "#9C3D7E"},
     "rollstuhl_unklar": {"label": "Gerät unklar", "farbe": "#5E5E5E"},
     "sonstiges": {"label": "Sonstiges", "farbe": "#5E5E5E"},
-    "nicht_klassifiziert": {"label": "Nicht klassifiziert", "farbe": "#8A8A8A"},
+    "nicht_klassifiziert": {"label": "Nicht klassifiziert", "farbe": "#E0A800"},
 }
 
 JA_NEIN = {"ja", "nein"}

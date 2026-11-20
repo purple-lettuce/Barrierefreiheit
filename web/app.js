@@ -28,7 +28,7 @@
 
   function stil(pr) {
     const nk = pr.k === "nicht_klassifiziert";
-    return { color: farben[pr.k], weight: nk ? 2 : (pr.e ? 3 : 5), opacity: (nk || !pr.e) ? 1 : 0.8, dashArray: STRICH[pr.h], lineJoin: "round" };
+    return { color: farben[pr.k], weight: nk ? 3 : (pr.e ? 3 : 5), opacity: (nk || !pr.e) ? 1 : 0.8, dashArray: STRICH[pr.h], lineJoin: "round" };
   }
   function aufnehmen(gj) {
     L.geoJSON(gj, {
@@ -117,7 +117,7 @@
     ["rollstuhl_r3", "nein", "R3 – starke Antriebshilfe"], ["handbike", "nein", "Handbike"],
     ["rollstuhl_unklar", "nein", "Gerät unklar / Sonstiges"], ["nicht_klassifiziert", "ohne", "Nicht klassifiziert (nur „Alle Touren“)"],
   ];
-  const linie = (k, h) => `<svg width="48" height="10" aria-hidden="true"><line x1="0" y1="5" x2="48" y2="5" stroke="${farben[k]}" stroke-width="${k === "nicht_klassifiziert" ? 2 : 5}"${STRICH[h] ? ` stroke-dasharray="${STRICH[h]}"` : ""}/></svg>`;
+  const linie = (k, h) => `<svg width="48" height="10" aria-hidden="true"><line x1="0" y1="5" x2="48" y2="5" stroke="${farben[k]}" stroke-width="${k === "nicht_klassifiziert" ? 3 : 5}"${STRICH[h] ? ` stroke-dasharray="${STRICH[h]}"` : ""}/></svg>`;
   $("legende").innerHTML = zeilen.map(([k, h, t]) => `<li>${linie(k, h)}<span>${esc(t)}</span></li>`).join("") +
     `<li><svg width="48" height="10" aria-hidden="true"><line x1="0" y1="5" x2="48" y2="5" stroke="#444" stroke-width="3" opacity="0.8"/></svg><span>dünner: Entwurf (nicht veröffentlicht)</span></li>
      <li><svg width="48" height="10" aria-hidden="true"><line x1="0" y1="5" x2="48" y2="5" stroke="#444" stroke-width="5"/></svg><span>durchgezogen: keine Hilfsperson nötig</span></li>

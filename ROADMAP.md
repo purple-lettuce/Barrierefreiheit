@@ -92,7 +92,7 @@ Warum nicht eine Farbe pro Bedingung: Die Bedingungen überlappen. Eine Tour kan
 | R3 | starke Antriebshilfe (z. B. Swiss Trac) | Orange | `#B34700` | 4,8 : 1 |
 | Handbike | Handbike, Aktivität Radfahren (Stufen offen, siehe D2) | Violett | `#9C3D7E` | 5,4 : 1 |
 | unklar / sonstiges | Gerät nicht bestimmbar bzw. Sonstiges | Grau | `#5E5E5E` | 5,7 : 1 |
-| nicht klassifiziert | nur im Modus „Alle Touren“ | Hellgrau, dünn | `#8A8A8A` | 3,0 : 1 (knapp) |
+| nicht klassifiziert | nur im Modus „Alle Touren“ | Gelb (Gold), dünn | `#E0A800` | 2,0 : 1 (Linienfarbe, Unterscheidung über Strichstärke und Karte) |
 
 Die Kontraste sind gegen die Grenze von 3 : 1 für Grafikelemente (WCAG 2.1, 1.4.11) geprüft. Die Farbe ist nie die einzige Unterscheidung: Die Strichart kommt hinzu, und Rot-Grün-Paare werden vermieden.
 
