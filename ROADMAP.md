@@ -1,6 +1,57 @@
-﻿# Roadmap – Website „Barrierefreiheitslayer“
+# Roadmap – Website „Barrierefreiheitslayer“
 
-Stand: 2026-11-20. Vorschlag zur Abstimmung, noch nicht umgesetzt.
+Stand: 2026-11-20. Demo-Version umgesetzt (Ordner `web/`, `docs/`, `data/`, `tests/`). Der Stand je Arbeitspaket steht in Abschnitt 0.
+
+## 0. Umsetzungsstand und Abhängigkeiten
+
+Legende: ✅ erledigt · 🟡 für die Demo erledigt, Rest offen · ⛔ blockiert · ⬜ offen
+
+### Erledigt
+| AP | Stand | Ergebnis |
+|---|---|---|
+| AP-02 | ✅ | `docs/Datenmodell.md` |
+| AP-04 | ✅ | `scripts/build_web_export.py`, Ausgabe in `web/data/` (Karten-Startdatei 0,49 MB) |
+| AP-05 | ✅ | `scripts/check_web_data.py`, `tests/` (Quelle 444 / 90 / 85 / 5, Whitelist, läuft bei jedem Export) |
+| AP-06 | ✅ | `web/index.html`, Leaflet lokal, OSM-Kacheln mit Attribution |
+| AP-07 | ✅ | Layer-Schalter, Zustand im Link |
+| AP-08 | ✅ | Farben und Strichart nach Abschnitt 3, Legende |
+| AP-09 | ✅ | Modi „nur Report" / „Alle", Gerätefilter, Entwürfe; Filter „nur vollständig" vorhanden, aber gesperrt bis AP-03 Daten hat |
+| AP-10 | ✅ | Popup mit Pflichthinweis, Link-Muster `alpenvereinaktiv.com/de/tour/<id>/` geprüft |
+| AP-12 | ✅ | `web/liste.html`, sortier- und filterbar |
+| AP-16 | ✅ | `web/quellen.html` (Lizenzzeile der Tourdaten noch tbd, siehe AP-15) |
+
+### Teilweise erledigt
+| AP | Stand | Was fehlt | Abhängig von |
+|---|---|---|---|
+| AP-01 | 🟡 | Handbike-Stufen. Regelkarte `docs/Regelkarte.md` liegt vor. | D2 (Team Inklusion) |
+| AP-03 | 🟡 | Vorlage `data/bewertung.csv` mit 90 Zeilen, alle „offen". Einlesen und Stufenlogik fertig. Es fehlen die Werte. | D7 (Datenlieferung Team Inklusion) |
+| AP-11 | 🟡 | Erklärseite steht. Wortlaut der Schlüsselstellen-Definition aus dem Leitfaden fehlt. | Text aus Leitfaden, siehe `docs/Betrieb.md` |
+| AP-13 | 🟡 | Umgesetzt und automatisch geprüft (Kontraste, Aufbau). Fehlt: Screenreader-Stichprobe, Tastaturdurchlauf, Rechtsprüfung zum Gesetz. | Menschen zum Testen, Rechtsprüfung |
+| AP-14 | 🟡 | Chromium (Edge) geprüft. Fehlt: Firefox, Safari, echte Handys, Ladezeit mobil. | Testgeräte |
+| AP-15 | ⛔ | Dokumentation `docs/Betrieb.md` und Platzhalter für Impressum/Datenschutz liegen vor. Hosting, Domain, Texte fehlen. | D6 |
+| AP-17 | ⛔ | Ablauf in `docs/Aktualisierung.md`. Verantwortliche Person fehlt. | D7 |
+
+### Reihenfolge der Abhängigkeiten
+1. **D6 klären** → AP-15 (Hosting, Impressum, Datenschutz, Lizenz der Tourdaten) → Veröffentlichung (M5).
+2. **D7 klären** → AP-03 Werte geliefert → `data/bewertung.csv` füllen → Export neu → Stufen, durchgezogene/gestrichelte Linien und Filter „nur vollständig" werden wirksam → AP-17 Zuständigkeit eintragen.
+3. **D2 klären** → AP-01 Regelkarte fertig → Handbike-Stufen im Code (`scripts/web_rules.py`, `stufe()`) ergänzen → Erklärseite anpassen.
+4. **Leitfaden-Text** (Schlüsselstelle) → AP-11 abschließen. Unabhängig von D2, D6, D7.
+5. **Manuelle Tests** (AP-13/14) können sofort starten. Nach Schritt 2 und 3 wiederholen, weil sich Linienarten und Stufen ändern.
+6. **Vor M5:** Entscheiden, ob Entwürfe in der öffentlichen Version zuschaltbar bleiben (Demo-Erweiterung zu D3).
+
+### Abweichungen von der Roadmap
+- **Entwürfe:** Die 188 nicht veröffentlichten Touren sind für die Demo als „Entwurf" zuschaltbar (Standard aus, ohne Link zur Tour). Die Roadmap sah sie nicht vor (D3).
+- **Strichpunktiert:** Neuer Zwischenzustand „Angabe zur Hilfsperson noch nicht erfasst", damit keine falsche Aussage „keine Hilfsperson nötig" entsteht, bis AP-03 Daten hat.
+- **Web-Export:** Die Abnahme „444 / 90 / 85" gilt für die Quelle. Im Web liegen 85 Touren mit Report, 171 weitere veröffentlichte und 188 Entwürfe.
+
+### Meilensteine
+| Meilenstein | Stand |
+|---|---|
+| M1 Regeln und Daten | 🟡 Daten und Prüfung stehen, Werte aus AP-03 und D2 fehlen |
+| M2 Karten-Prototyp | ✅ |
+| M3 Filter, Popups, Listenansicht | ✅ (Filter „nur vollständig" wartet auf AP-03) |
+| M4 Qualität geprüft | 🟡 automatische Prüfung erledigt, manuelle Tests offen |
+| M5 Veröffentlichung | ⛔ wartet auf D6, D7 und die Textlücken |
 
 ## 1. Ausgangslage aus den Daten
 
@@ -61,7 +112,8 @@ Größe: S = wenige Stunden, M = etwa 1 bis 2 Tage, L = mehrere Tage. Die Reihen
 ### Phase 0 – Klärung
 
 **AP-01 Regeln festlegen** (S)
-- Offen: D2 (Handbike-Stufen), D6 und D7. D1 sowie D3 bis D5 sind entschieden.`n- Eine Seite Regelkarte.
+- Offen: D2 (Handbike-Stufen), D6 und D7. D1 sowie D3 bis D5 sind entschieden.
+- Eine Seite Regelkarte.
 - Ergebnis: abgestimmte Definition von „vollständig“, „teilweise“ und Handbike.
 - Abnahme: Regelkarte liegt im Projekt.
 
@@ -74,7 +126,8 @@ Größe: S = wenige Stunden, M = etwa 1 bis 2 Tage, L = mehrere Tage. Die Reihen
 
 **AP-03 Bewertungsdaten übernehmen** (S–M, abhängig von D1 und D7)
 - Je Tour: Anzahl Schlüsselstellen, barrierefreies WC ja/nein, Hilfsperson erforderlich ja/nein.
-- Das Team Inklusion pflegt die Daten. Wir übernehmen die Werte als Lieferung, z. B. als CSV.`n- Quelle: Reports in alpenvereinaktiv (My Business → Inhalte → „Report für Barrierefreiheit“), gepflegt vom Team Inklusion.
+- Das Team Inklusion pflegt die Daten. Wir übernehmen die Werte als Lieferung, z. B. als CSV.
+- Quelle: Reports in alpenvereinaktiv (My Business → Inhalte → „Report für Barrierefreiheit“), gepflegt vom Team Inklusion.
 - Ergebnis: CSV mit Zuordnung über die Tour-ID, im Build-Schritt eingelesen.
 - Abnahme: Für jede der 90 Touren mit Report ist ein Eintrag vorhanden oder ausdrücklich „offen“.
 

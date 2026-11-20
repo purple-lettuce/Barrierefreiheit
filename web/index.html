@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karte – Barrierefreiheitslayer Team Inklusion ÖAV</title>
+<meta name="description" content="Karte der Rollstuhl- und Handbike-Touren des Team Inklusion ÖAV mit Report zur Barrierefreiheit.">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="karte">
+<div class="layout">
+  <section id="steuerung" aria-label="Anzeige und Filter">
+    <h2 style="font-size:1.1rem;margin-top:0">Anzeige</h2>
+    <label><input type="checkbox" id="layer-an" checked> Barrierefreiheitslayer anzeigen</label>
+    <fieldset>
+      <legend>Welche Touren?</legend>
+      <label><input type="radio" name="modus" value="report" checked> Nur Touren mit Report</label>
+      <label><input type="radio" name="modus" value="alle"> Alle Touren</label>
+    </fieldset>
+    <fieldset>
+      <legend>Entwürfe</legend>
+      <label><input type="checkbox" id="entwuerfe"> Nicht veröffentlichte Entwürfe einbeziehen</label>
+      <p class="notiz">Entwürfe sind auf alpenvereinaktiv.com noch nicht veröffentlicht. Ihre Daten sind vorläufig und werden dünner gezeichnet.</p>
+    </fieldset>
+    <fieldset id="geraete">
+      <legend>Gerät</legend>
+    </fieldset>
+    <fieldset>
+      <legend>Stufe</legend>
+      <label><input type="checkbox" id="nur-vollstaendig"> Nur vollständig barrierefrei</label>
+      <p class="notiz" id="stufe-notiz"></p>
+    </fieldset>
+    <p id="zaehlung" role="status" aria-live="polite"></p>
+    <p class="notiz"><a href="liste.html" id="zur-liste">Dieselben Touren als Liste</a>. Die Liste lässt sich ohne Karte bedienen.</p>
+    <h2 style="font-size:1.1rem">Legende</h2>
+    <ul class="legende" id="legende"></ul>
+    <p class="notiz hinweis"><strong>Hinweis:</strong> Die Einstufung gilt nur für das dokumentierte Gerät. Eine Tour gilt nie pauschal als barrierefrei.</p>
+  </section>
+  <main id="inhalt" tabindex="-1" style="flex:1;display:flex;min-width:0">
+    <div id="map" role="region" aria-label="Karte der Touren. Eine Listenansicht mit denselben Touren steht auf der Seite Liste zur Verfügung."></div>
+  </main>
+</div>
+<noscript><p class="hinweis">Für die Karte wird JavaScript benötigt. Die <a href="liste.html">Listenansicht</a> funktioniert ebenfalls mit JavaScript.</p></noscript>
+<script src="vendor/leaflet/leaflet.js"></script>
+<script src="common.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

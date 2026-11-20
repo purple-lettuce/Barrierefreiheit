@@ -1,4 +1,4 @@
-﻿# Barrierefreiheitslayer – Team Inklusion ÖAV
+# Barrierefreiheitslayer – Team Inklusion ÖAV
 
 Kartenlayer mit den Touren des „Team Inklusion ÖAV“ (alpenvereinaktiv, Quellen-ID 806030126).
 Gelöschte Touren (Status „Gelöscht“) sind entfernt: **444 Touren**, alle mit Linie.
@@ -25,3 +25,10 @@ Rohdaten (nicht im Repository): Excel-Export `av_routes_*.xlsx` und Shapefile-Or
     python scripts/extract_team_inklusion_tracks.py --shp <routes/….shp> --tours output/team_inklusion_touren_alle.xlsx --out output --full-export <av_routes.xlsx>
 
 `scripts/tour_ids.py` enthält die gemeinsame ID-Normalisierung.
+
+## Website (Demo)
+Statische Seite in `web/` (Leaflet, OSM-Kacheln). Dokumentation in `docs/`: Regelkarte, Datenmodell, Aktualisierung, Betrieb, Qualität. Ergebnisse von `ROADMAP.md` AP-01 bis AP-17, soweit nicht durch D2, D6, D7 blockiert.
+
+    python scripts/build_web_export.py      # erzeugt web/data/ und prüft die Daten
+    python -m unittest discover -s tests
+    python -m http.server 8765 --directory web   # http://localhost:8765

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quellen und Lizenz – Barrierefreiheitslayer Team Inklusion ÖAV</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="inhalt" class="text" tabindex="-1">
+<h2>Quellen und Lizenz</h2>
+<h2>Datenquelle</h2>
+<p>Touren, Linien und Reports: Team Inklusion des Österreichischen Alpenvereins (ÖAV), veröffentlicht auf <a href="https://www.alpenvereinaktiv.com">alpenvereinaktiv.com</a>. Standardmäßig werden nur veröffentlichte Touren gezeigt. Nicht veröffentlichte Entwürfe lassen sich zuschalten und sind als Entwurf gekennzeichnet (vorläufige, nicht geprüfte Daten).</p>
+<p>Datenstand: <span id="stand">wird geladen …</span>. <span id="zahlen"></span></p>
+<h2>Einstufung</h2>
+<p>Die Einstufung gilt nur für das dokumentierte Gerät. Eine Tour gilt nie pauschal als barrierefrei. Bitte prüfen Sie die Tourbeschreibung und die Bedingungen vor Ort.</p>
+<h2>Kartengrundlage und Lizenz</h2>
+<p>Kartendaten: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap-Mitwirkende</a>, veröffentlicht unter der <a href="https://opendatacommons.org/licenses/odbl/">Open Database License (ODbL)</a>. Die Kacheln werden vom Server der OpenStreetMap Foundation geladen.</p>
+<p>Kartenbibliothek: <a href="https://leafletjs.com">Leaflet</a> 1.9.4, BSD-2-Clause-Lizenz (Kopie in <code>vendor/leaflet/LICENSE</code>).</p>
+<p><span class="tbd">tbd: Lizenz der Tourdaten (Team Inklusion / ÖAV)</span></p>
+<script>
+window.addEventListener("DOMContentLoaded", () => ladeJson("data/meta.json").then(m => {
+  document.getElementById("stand").textContent = m.stand;
+  document.getElementById("zahlen").textContent = m.web.mit_report + " Touren mit Report und " + m.web.ohne_report + " weitere veröffentlichte Touren sowie " + m.web.entwuerfe + " Entwürfe (davon " + m.web.entwuerfe_mit_report + " mit Report).";
+}));
+</script>
+</main>
+<script src="common.js"></script>
+<script>seiteAufbauen("quellen.html");</script>
+</body>
+</html>

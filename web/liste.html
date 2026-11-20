@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Liste – Barrierefreiheitslayer Team Inklusion ÖAV</title>
+<meta name="description" content="Liste der Rollstuhl- und Handbike-Touren des Team Inklusion ÖAV mit Report zur Barrierefreiheit, sortier- und filterbar.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="inhalt" class="liste" tabindex="-1">
+  <h2>Touren als Liste</h2>
+  <p class="hinweis"><strong>Hinweis:</strong> Die Einstufung gilt nur für das dokumentierte Gerät. Eine Tour gilt nie pauschal als barrierefrei.</p>
+  <form class="filterleiste" id="filter" onsubmit="return false">
+    <fieldset><legend>Welche Touren?</legend>
+      <label><input type="radio" name="modus" value="report" checked> Nur Touren mit Report</label>
+      <label><input type="radio" name="modus" value="alle"> Alle Touren</label></fieldset>
+    <fieldset><legend>Entwürfe</legend>
+      <label><input type="checkbox" id="entwuerfe"> Nicht veröffentlichte Entwürfe einbeziehen</label></fieldset>
+    <fieldset id="geraete"><legend>Gerät</legend></fieldset>
+    <fieldset><legend>Stufe</legend>
+      <label><input type="checkbox" id="nur-vollstaendig"> Nur vollständig barrierefrei</label>
+      <span id="stufe-notiz" class="notiz"></span></fieldset>
+  </form>
+  <p id="zaehlung" role="status" aria-live="polite"></p>
+  <div class="tabellenrahmen">
+  <table>
+    <caption class="sr-only">Touren. Die Spaltenüberschriften sind Schaltflächen zum Sortieren.</caption>
+    <thead><tr id="kopf"></tr></thead>
+    <tbody id="zeilen"></tbody>
+  </table>
+  </div>
+  <p><a href="index.html" id="zur-karte">Zur Kartenansicht</a></p>
+</main>
+<script src="common.js"></script>
+<script src="liste.js"></script>
+</body>
+</html>
